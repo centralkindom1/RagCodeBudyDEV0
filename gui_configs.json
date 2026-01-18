@@ -1,0 +1,10 @@
+{
+    "Default": {
+        "pdf": "",
+        "model": "qwen-plus"
+    },
+    "RecentSettings": {
+        "tab_c_input": "D:/RagCodeBudyDEV0/results/earthmover.pdf_20260118_160341.json",
+        "tab_c_output": "D:/RagCodeBudyDEV0/results\\vector_RAG_earthmover.pdf_20260118_160341.json"
+    }
+}
