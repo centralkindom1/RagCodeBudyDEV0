@@ -1,0 +1,22 @@
+﻿[
+  {
+    "message": "{'total_page_number': 3}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:47:58.821568"
+  },
+  {
+    "message": "{'total_token': 6860}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:47:58.823568"
+  },
+  {
+    "message": "{'toc_content': None, 'toc_page_list': [], 'page_index_given_in_toc': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:47:58.826566"
+  },
+  {
+    "message": "len(group_texts): 1",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:47:58.827567"
+  }
+]

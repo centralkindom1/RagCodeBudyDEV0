@@ -1,0 +1,137 @@
+﻿[
+  {
+    "message": "{'total_page_number': 12}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:16.129986"
+  },
+  {
+    "message": "{'total_token': 69606}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:16.144976"
+  },
+  {
+    "message": "{'toc_content': None, 'toc_page_list': [], 'page_index_given_in_toc': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:16.265007"
+  },
+  {
+    "message": "len(group_texts): 3",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:16.265007"
+  },
+  {
+    "message": "generate_toc: [{'structure': '1', 'title': 'INTRODUCTION', 'physical_index': '<physical_index_1>'}, {'structure': '2', 'title': 'PRELIMINARIES', 'physical_index': '<physical_index_2>'}, {'structure': '2.1', 'title': 'Computing the EMD', 'physical_index': '<physical_index_3>'}, {'structure': '2.2', 'title': 'Filter-and-Refinement Framework', 'physical_index': '<physical_index_3>'}, {'structure': '3', 'title': 'SCALING UP SSP', 'physical_index': '<physical_index_4>'}, {'structure': '4', 'title': 'BOOSTING THE REFINEMENT PHASE', 'physical_index': '<physical_index_5>'}, {'structure': '4.1', 'title': 'Analysis of EMD Calculation', 'physical_index': '<physical_index_5>'}, {'structure': '4.2', 'title': 'Progressive Bounding', 'physical_index': '<physical_index_6>'}, {'structure': '4.3', 'title': 'Sensitivity to Refinement Order', 'physical_index': '<physical_index_6>'}, {'structure': '4.4', 'title': 'Dynamic Refinement Ordering', 'physical_index': '<physical_index_7>'}, {'structure': '4.5', 'title': 'Running Upper Bound', 'physical_index': '<physical_index_8>'}, {'structure': '5', 'title': 'EXPERIMENTAL EVALUATION', 'physical_index': '<physical_index_9>'}, {'structure': '5.1', 'title': 'Performance Improvement', 'physical_index': '<physical_index_9>'}, {'structure': '5.2', 'title': 'Scalability Experiments', 'physical_index': '<physical_index_10>'}, {'structure': '5.3', 'title': 'Parameter Tuning in DRO', 'physical_index': '<physical_index_11>'}, {'structure': '6', 'title': 'RELATED WORK', 'physical_index': '<physical_index_11>'}, {'structure': '7', 'title': 'CONCLUSION', 'physical_index': '<physical_index_12>'}, {'structure': '8', 'title': 'ACKNOWLEDGMENT', 'physical_index': '<physical_index_12>'}, {'structure': '9', 'title': 'REFERENCES', 'physical_index': '<physical_index_12>'}]",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:30.629451"
+  },
+  {
+    "message": "convert_physical_index_to_int: [{'structure': '1', 'title': 'INTRODUCTION', 'physical_index': 1}, {'structure': '2', 'title': 'PRELIMINARIES', 'physical_index': 2}, {'structure': '2.1', 'title': 'Computing the EMD', 'physical_index': 3}, {'structure': '2.2', 'title': 'Filter-and-Refinement Framework', 'physical_index': 3}, {'structure': '3', 'title': 'SCALING UP SSP', 'physical_index': 4}, {'structure': '4', 'title': 'BOOSTING THE REFINEMENT PHASE', 'physical_index': 5}, {'structure': '4.1', 'title': 'Analysis of EMD Calculation', 'physical_index': 5}, {'structure': '4.2', 'title': 'Progressive Bounding', 'physical_index': 6}, {'structure': '4.3', 'title': 'Sensitivity to Refinement Order', 'physical_index': 6}, {'structure': '4.4', 'title': 'Dynamic Refinement Ordering', 'physical_index': 7}, {'structure': '4.5', 'title': 'Running Upper Bound', 'physical_index': 8}, {'structure': '5', 'title': 'EXPERIMENTAL EVALUATION', 'physical_index': 9}, {'structure': '5.1', 'title': 'Performance Improvement', 'physical_index': 9}, {'structure': '5.2', 'title': 'Scalability Experiments', 'physical_index': 10}, {'structure': '5.3', 'title': 'Parameter Tuning in DRO', 'physical_index': 11}, {'structure': '6', 'title': 'RELATED WORK', 'physical_index': 11}, {'structure': '7', 'title': 'CONCLUSION', 'physical_index': 12}, {'structure': '8', 'title': 'ACKNOWLEDGMENT', 'physical_index': 12}, {'structure': '9', 'title': 'REFERENCES', 'physical_index': 12}]",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:30.630454"
+  },
+  {
+    "message": "{'mode': 'process_toc_with_page_numbers', 'accuracy': 1.0, 'incorrect_results': []}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:37.973466"
+  },
+  {
+    "message": "Checking title appearance in start concurrently",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:37.973466"
+  },
+  {
+    "message": "Response: {'thinking': \"The section title '1. INTRODUCTION' appears in the page_text, but it is not at the beginning. There are several lines of text before it, including the paper title, authors, affiliations, abstract, and other content. Even with fuzzy matching and ignoring space inconsistencies, the section does not start at the beginning of the given page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:40.013234"
+  },
+  {
+    "message": "Response: {'thinking': \"The given section title is 'Computing the EMD'. The page_text starts with '2.1 ComputingtheEMD', which, when ignoring spaces and case, matches the section title. Although there are no spaces in 'ComputingtheEMD' in the text, fuzzy matching allows for space inconsistencies. Since this title appears at the very beginning of the page_text, the section starts at the beginning.\", 'start_begin': 'yes'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:40.571887"
+  },
+  {
+    "message": "Response: {'thinking': \"The given page_text starts with content that clearly belongs to a previous section, discussing EMD calculations, progressive bounding (PB), dynamic refinement ordering (DRO), and examples related to music genre analysis. The section title 'PRELIMINARIES' appears later in the text after this content. Even with fuzzy matching and ignoring space inconsistencies, the title '2. PRELIMINARIES' does not appear at the beginning of the page_text. Therefore, the current section does not start at the beginning of the provided text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:41.067084"
+  },
+  {
+    "message": "Response: {'thinking': \"The given section title is 'BOOSTING THE REFINEMENT PHASE', and in the page_text, a similar title appears as '4. BOOSTINGTHEREFINEMENTPHASE'. Ignoring space inconsistencies and case differences, this matches the section title. However, there is significant content before this title in the page_text, including figures, text blocks, and other lines (e.g., 'q p q p...', Figure 6, and preceding paragraphs). Therefore, the section does not start at the beginning of the page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:41.183496"
+  },
+  {
+    "message": "Response: {'thinking': \"The section title 'SCALING UP SSP' appears in the page_text, and although there is content before it (such as Algorithm 1, Algorithm 2, and various explanations), the exact phrase '3. SCALING UP SSP' starts a new section in the text. However, this section does not appear at the beginning of the given page_text — there is significant content (including algorithms and figures) that precedes it. Ignoring space inconsistencies or formatting variations, the section title is not the first piece of content. Therefore, the section does not start at the beginning of the page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:41.278845"
+  },
+  {
+    "message": "Response: {'thinking': \"The given section title is 'Analysis of EMD Calculation', and in the page_text, the exact heading '4.1 AnalysisofEMDCalculation' appears. Although there are formatting differences (such as lack of spaces and presence of '4.1'), fuzzy matching allows us to ignore space inconsistencies and recognize this as the same title. However, this section does not appear at the beginning of the provided page_text. Before this section, there is significant content including figures, discussion, and a prior section '4. BOOSTING THE REFINEMENT PHASE'. Therefore, the current section does not start at the beginning of the given page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:41.338843"
+  },
+  {
+    "message": "Response: {'thinking': \"The given section title is '2.2 Filter-and-RefinementFramework'. In the page_text, this exact string appears as '2.2 Filter-and-RefinementFramework' followed by content related to the framework. Although there is no space after the section number, fuzzy matching allows us to ignore such spacing inconsistencies. The section title appears after a previous section ('2.1 ComputingtheEMD') and is not at the very beginning of the page_text. There is substantial text before '2.2 Filter-and-RefinementFramework', including discussions on EMD computation and network flow. Therefore, the current section does not start at the beginning of the page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:41.538909"
+  },
+  {
+    "message": "Response: {'thinking': \"The section title 'Dynamic Refinement Ordering' appears in the page_text as '4.4 DynamicRefinementOrdering', with no visible spaces between words, but this is due to formatting/spacing issues in the text. However, there is significant content before this section title in the page_text, including algorithm descriptions, figures, and other text related to access order and EMD calculations. Therefore, the section does not start at the beginning of the given page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:42.995942"
+  },
+  {
+    "message": "Response: {'thinking': \"The given section title is 'Progressive Bounding'. The page_text starts with content related to 'currentcostandleadstoanearlyterminationofSIAforEMDcal-' which appears to be a continuation of text from a previous section or paragraph. There is no indication that the section 'Progressive Bounding' begins at the start of the page_text. Instead, the actual mention of 'progressive bounding (PB)' appears later in the text ('Summing up, our progressive bounding (PB) approach...'), which suggests that the section starts there, not at the beginning of the provided page_text. Even with fuzzy matching and ignoring space inconsistencies, the title 'Progressive Bounding' does not appear at the beginning, nor does any variation of it start the text. Therefore, the section does not start at the beginning of the given page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:43.387783"
+  },
+  {
+    "message": "Response: {'thinking': \"The section title 'Running Upper Bound' appears in the page_text, but it is not at the beginning. The page_text starts with content about 'the currently best object in PL' and other technical discussion before reaching the 'Running Upper Bound' section. Even with fuzzy matching and ignoring space inconsistencies, the section title does not appear right at the start of the given text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:43.387783"
+  },
+  {
+    "message": "Response: {'thinking': \"The given section title is 'Sensitivity to Refinement Order'. In the page_text, this exact phrase appears as '4.3 SensitivitytoRefinementOrder' near the end of the text. Although there are formatting inconsistencies (e.g., no space between words), fuzzy matching allows us to ignore such issues. However, this section title is preceded by a significant amount of content related to previous sections (such as Lemma 1, Lemma 2, Definition 3, and tables). Therefore, the current section does not start at the beginning of the provided page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:43.627825"
+  },
+  {
+    "message": "Response: {'thinking': \"The given page_text starts with 'Table3:Thestatisticsofsixrealdatasets', which is part of the content before the section title 'EXPERIMENTAL EVALUATION'. The section title itself does not appear at the beginning of the page_text, and there are multiple tables and paragraphs prior to any mention of the section. Even with fuzzy matching for spaces, the section title is not found at the start. Therefore, the section does not begin at the beginning of the page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:43.938298"
+  },
+  {
+    "message": "Response: {'thinking': \"The section title 'Performance Improvement' appears in the page_text as '5.1 PerformanceImprovement' (with no space between 'Performance' and 'Improvement'). Although there is a lack of spacing, fuzzy matching allows for such inconsistencies. However, this section does not start at the beginning of the given page_text, as there is substantial content before it, including tables, descriptions of datasets, and discussion about evaluation methods. Therefore, despite the presence of the section title later in the text, it does not start at the beginning.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:44.103304"
+  },
+  {
+    "message": "Response: {'thinking': \"The section title 'Parameter Tuning in DRO' appears in the page_text as '5.3 ParameterTuninginDRO', with no visible spaces due to formatting, but this is a fuzzy match considering space inconsistencies. However, there is significant content before this section in the page_text, including figures, scalability studies, and other analysis. Therefore, the section does not start at the beginning of the given page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:44.238292"
+  },
+  {
+    "message": "Response: {'thinking': \"The section title 'Scalability Experiments' appears in the page_text, but it is not at the beginning. The page_text starts with numerical values and chart data (e.g., '2.0', '1.5', etc.), followed by figure descriptions and other content. The phrase 'ScalabilityExperiments' (without space) appears later in the text after '5.2' and before 'In the first scalability study...'. Since there is significant content before the section title, even with fuzzy matching for spaces, the section does not start at the beginning of the page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:44.433227"
+  },
+  {
+    "message": "Response: {'thinking': \"The section title 'RELATED WORK' appears in the page_text as '6. RELATEDWORK' (without space between 'RELATED' and 'WORK'), which matches fuzzily with the given section title. However, there are multiple figures, data plots, and text sections before this title appears. Specifically, content such as Figure 15, Figure 16, and a parameter tuning section (5.3) appear before '6. RELATEDWORK', indicating that the current section does not start at the beginning of the given page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:45.916431"
+  },
+  {
+    "message": "Response: {'thinking': \"The section title 'REFERENCES' appears in the page_text, but it is not at the beginning. Before 'REFERENCES', there are other sections such as '7. CONCLUSION' and '8. ACKNOWLEDGMENT' with their respective content. Therefore, even with fuzzy matching and ignoring space inconsistencies, 'REFERENCES' does not start at the beginning of the given page_text.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:46.040302"
+  },
+  {
+    "message": "Response: {'thinking': \"The section title 'CONCLUSION' appears in the page_text, but it is preceded by other content, specifically a reference list entry '[10] A.Y.Fu,L.Wenyin,andX.Deng.Detectingphishingwebpages...' and more text before that. Even with fuzzy matching and ignoring space inconsistencies, '7. CONCLUSION' is not at the beginning of the given page_text. Therefore, the section does not start at the beginning.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:46.052303"
+  },
+  {
+    "message": "Response: {'thinking': \"The given section title is 'ACKNOWLEDGMENT'. In the page_text, this section starts with '8. ACKNOWLEDGMENT', which appears after the '7. CONCLUSION' section and several references. There is significant content (including the conclusion and multiple references) before the 'ACKNOWLEDGMENT' section. Even though we allow for fuzzy matching and ignore space inconsistencies, the section clearly does not appear at the beginning of the provided page_text. Therefore, it does not start at the beginning.\", 'start_begin': 'no'}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:32:46.605492"
+  }
+]

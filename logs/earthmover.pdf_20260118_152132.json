@@ -1,0 +1,12 @@
+﻿[
+  {
+    "message": "{'total_page_number': 12}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:21:42.347869"
+  },
+  {
+    "message": "{'total_token': 69606}",
+    "level": "INFO",
+    "timestamp": "2026-01-18T15:21:42.422853"
+  }
+]
