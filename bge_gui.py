@@ -19,7 +19,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 load_dotenv()
 # 1. Embedding API
 EMBEDDING_API_URL = os.getenv("BGE_API_BASE", "https://api.siliconflow.cn/v1") + "/embeddings"
-EMBEDDING_API_KEY = os.getenv("BGE_API_KEY", "sk-qeyemnjzmogvhpgsypcyufwidnjcfgjinpwjbnkhwlvhgjrv")
+EMBEDDING_API_KEY = os.getenv("BGE_API_KEY", "YOUR API KEY")
 EMBEDDING_MODEL_NAME = os.getenv("BGE_MODEL", "BAAI/bge-m3")
 
 # 2. Rerank API
@@ -549,3 +549,4 @@ if __name__ == "__main__":
     window.show()
 
     sys.exit(app.exec_())
+
